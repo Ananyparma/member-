@@ -48,8 +48,7 @@ with open("data.csv", encoding='UTF-8') as f:
 # ------------------------------- Start --------------------------------- #
 @app.on_message(filters.private & filters.command(["start"]))
 async def start(lel, message):
-   a= await (lel, message)
-   if a==1:
+  
       return
    if not os.path.exists(f"Users/{message.from_user.id}/phone.csv"):
       os.mkdir(f'./Users/{message.from_user.id}')
@@ -67,8 +66,7 @@ async def start(lel, message):
 async def phone(lel, message):
  try:
    await message.delete()
-   a= await Subscribe(lel, message)
-   if a==1:
+ 
       return
    
    if not os.path.exists(f"Users/{message.from_user.id}/phone.csv"):
@@ -119,8 +117,7 @@ async def phone(lel, message):
 async def login(lel, message):
  try:
    await message.delete()
-   a= await Subscribe(lel, message)
-   if a==1:
+  
       return
    
    with open(f"Users/{message.from_user.id}/phone.csv", 'r')as f:
@@ -230,8 +227,7 @@ async def login(lel, message):
 @app.on_message(filters.private & filters.command(["Adding"]))
 async def to(lel, message):
  try:
-   a= await Subscribe(lel, message)
-   if a==1:
+   
       return
    
    number = await app.ask(chat_id=message.chat.id, text="**ɴᴏᴡ sᴇɴᴅ ᴛʜᴇ ғʀᴏᴍ ɢʀᴏᴜᴘ ᴜsᴇʀɴᴀᴍᴇ \n\nᴍᴀᴅᴇ ᴡɪᴛʜ ʙʏ **")
@@ -325,8 +321,7 @@ async def to(lel, message):
 # ------------------------------- Start --------------------------------- #
 @app.on_message(filters.private & filters.command(["PhoneSee"]))
 async def start(lel, message):
-   a= await Subscribe(lel, message)
-   if a==1:
+ 
       return
    
    try:
@@ -355,8 +350,7 @@ async def start(lel, message):
 @app.on_message(filters.private & filters.command(["Remove"]))
 async def start(lel, message):
  try:
-   a= await Subscribe(lel, message)
-   if a==1:
+  
       return
    
    try:
