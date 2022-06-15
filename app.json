@@ -1,0 +1,56 @@
+{
+    "name": "Zebra Scraping bot",
+    "description": "Zebra Scraping Bot",
+    "logo": "https://te.legra.ph/file/beb2c123244fad44d0575.jpg",
+    "keywords": [
+      "telegram",
+      "best",
+      "indian",
+      "pyrogram"
+    ],
+    "website": "https://github.com/Zebra012/Z3BRA-SCRAPING-BOT",
+    "repository": "https://github.com/Zebra012/Z3BRA-SCRAPING-BOT",
+    "addons": [
+           {
+          "options": {
+             "version": "12"
+          },
+          "plan": "heroku-postgresql"
+       }
+    ],
+    "buildpacks": [
+     {
+       "url": "https://github.com/heroku/heroku-buildpack-python"
+     },
+     {
+       "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+     }
+   ],
+    "env": {
+        "API_ID": {
+            "description": "Enter Api Id",
+            "value": "7507532",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "Enter Api Hash.",
+            "value": "c4f37d9aea37ef639f1f2da178acec3d",
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "Enter Bot Token",
+            "value": "5421122437:AAGuRMTVvQb0OwpYu00zs_fzec2MyXnX_KY",
+            "required": true
+        },
+        "OWNER_IDS": {
+            "description": "Owner Ids Seperate By Space",
+            "value": "5576613955 5511208018",
+            "required": false
+        },
+        "PREMIUM_IDS": {
+            "description": "Premium Ids Seperate By Space",
+            "value": "5576613955 5511208018",
+            "required": false
+       }
+    }    
+}
