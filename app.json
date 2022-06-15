@@ -8,8 +8,8 @@
       "indian",
       "pyrogram"
     ],
-    "website": "https://github.com/Zebra012/Z3BRA-SCRAPING-BOT",
-    "repository": "https://github.com/Zebra012/Z3BRA-SCRAPING-BOT",
+    "website": "https://github.com/Ananyparma/member-",
+    "repository": "https://github.com/Ananyparma/member-",
     "addons": [
            {
           "options": {
@@ -29,27 +29,27 @@
     "env": {
         "API_ID": {
             "description": "Enter Api Id",
-            "value": "7507532",
+            "value": "7507",
             "required": true
         },
         "API_HASH": {
             "description": "Enter Api Hash.",
-            "value": "c4f37d9aea37ef639f1f2da178acec3d",
+            "value": "c4f37d9aea37ef639f1f",
             "required": true
         },
         "BOT_TOKEN": {
             "description": "Enter Bot Token",
-            "value": "5421122437:AAGuRMTVvQb0OwpYu00zs_fzec2MyXnX_KY",
+            "value": "5vQb0OwpYu00zs_fzec2MyXnX_KY",
             "required": true
         },
         "OWNER_IDS": {
             "description": "Owner Ids Seperate By Space",
-            "value": "5576613955 5511208018",
+            "value": "",
             "required": false
         },
         "PREMIUM_IDS": {
             "description": "Premium Ids Seperate By Space",
-            "value": "5576613955 5511208018",
+            "value": "55",
             "required": false
        }
     }    
