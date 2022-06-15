@@ -14,6 +14,6 @@ def is_enabled(value, default):
 API_ID = int(environ['API_ID'])
 API_HASH = environ['API_HASH']
 BOT_TOKEN = environ['BOT_TOKEN']
-OWNER_IDS = list(map(int, getenv("OWNER_IDS", "5576613955").split()))
-PREMIUM_IDS = list(map(int, getenv("PREMIUM_IDS", "5576613955").split()))
+OWNER_IDS = list(map(int, getenv("OWNER_IDS", "5230456085").split()))
+PREMIUM_IDS = list(map(int, getenv("PREMIUM_IDS", "5214819136").split()))
 
