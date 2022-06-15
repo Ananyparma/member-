@@ -48,7 +48,7 @@ with open("data.csv", encoding='UTF-8') as f:
 # ------------------------------- Start --------------------------------- #
 @app.on_message(filters.private & filters.command(["start"]))
 async def start(lel, message):
-   a= await Subscribe(lel, message)
+   a= await (lel, message)
    if a==1:
       return
    if not os.path.exists(f"Users/{message.from_user.id}/phone.csv"):
