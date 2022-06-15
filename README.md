@@ -7,6 +7,6 @@
 
 ## ᴅᴇᴘʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ
  
-[![Deploy+On+Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Zebra012/ZEBRA-SCRAPER-BOT)
+[![Deploy+On+Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Ananyparma/member-)
 
 
